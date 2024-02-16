@@ -8,7 +8,7 @@ const personController = {
             people : peopleData.map((person) => ({
                 firstname : person.firstname,
                 lastname: person.lastname,
-                url: `person/${person.id}`
+                url: `/person/${person.id}`
             }))
         };
         res.render('person/person-list', data);
