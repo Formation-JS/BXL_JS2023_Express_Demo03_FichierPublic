@@ -37,3 +37,16 @@ app.js
 ### Objectifs
 - Séparation de responsabilité
 - Maintenabilité plus simple
+
+## Etapes de création d'un nouveau 
+- Initialiser le projet avec « npm init »
+- Installer les dépendences « npm install ... »
+- Créer la structure minimum du projet (app.js, readme.md, ...)
+- Configurer le « package.json »
+  - Ajout des scripts (start, dev)
+  - Customiser le fichier si necessaire (type, engines, ...)
+- Configurer git
+  - Ajouter un .gitignore
+  - Initialiser git avec « git init »
+  - Faire un commit initial
+- Commencer à codé :o
