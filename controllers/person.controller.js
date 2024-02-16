@@ -24,7 +24,10 @@ const personController = {
         }
         
         const data = {
-            person
+            person: {
+                ...person,
+                profileUrl: `/files/images/${person.profileImg}`
+            }
         };
         res.render('person/person-detail', data);
     }

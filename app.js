@@ -13,6 +13,10 @@ const app = express();
 app.set('view engine', 'ejs');
 app.set('views', './views');
 
+// Gestion du dossier public
+// → Possibilité d'ajouter un prefix de route
+app.use('/files', express.static('./public'));
+
 // Middlewares
 app.use(express.urlencoded({ extended: true }));
 
