@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo 03</title>
+</head>
+<body>
+    <h1>Demo 03</h1>
+    
+    <h2>Liste des personnes :</h2>
+    <ul>
+        <% people.forEach((person) => { %>
+
+            <li>
+                <a href="<%= person.url %>"><%= person.firstname + ' ' + person.lastname %></a>
+            </li>
+
+        <% }) %>
+
+    </ul>
+
+</body>
+</html>
